@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/**
+  * A catch-all path to Django template files, JavaScript, and Python files
+  * that contain Tailwind CSS classes and will be scanned by Tailwind to generate the final CSS file.
+  *
+  * If your final CSS file is not being updated after code changes, you may want to broaden or narrow
+  * the scope of this path.
+  */
+@source "../../../**/*.{html,py,js}";
+
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  color: rgb(2, 196, 2);
+  font-family: Ubuntu; 
+  }
+
+  .parent-box {
+    text-align: center;
+  }
+  
+  
+  .text-box {
+    height: auto;
+    width: 400px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: black;
+    color: red;
+    }
+
+  .img-box {
+    height: fit-content;
+    width: fit-content;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: black;
+    color: red;
+  }
+
+  .img-box-demon {
+    display: inline-block;
+    white-space: pre;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: black;
+    color: red;
+  }
+
+  .center {
+    text-align: center;
+    
+  }
+
+  .list-set {
+    display: inline-block;
+    margin: 1rem;
+    padding: 2rem 2rem;
+  }
+
+  .parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  }
+
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  }
+
+
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: black;
+    color: red;
+    font-family: Ubuntu;
+    font-size: xx-large;
+  }
+
+  .bold {
+    font-weight: bolder;
+  }
+
+
